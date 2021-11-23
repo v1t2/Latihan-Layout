@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: Arial;
+			padding: 10px;
+			background: #f1f1f1;
+		}
+		.header {
+			padding: 20px;
+			text-align: center;
+			background: #20B2AA;
+		}
+
+		.header h1 {
+			font-size: 35px;
+		}
+
+		.topnav {
+			overflow: hidden;
+			background-color: #FFA07A;
+		}
+
+		.topnav a {
+			float: left;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		.topnav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+
+		.leftcolumn {
+			float: left;
+			width: 100%;
+		}
+
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		.footer {
+			padding: 1px;
+			text-align: center;
+			background: #FFA07A;
+			margin-top: 140px;
+		}
+
+		@media screen and (max-width: 800px) {
+			.leftcolumn, .rightcolumn {
+				width: 100%;
+				padding: 0;
+			}
+		}
+
+		@media screen and (max-width: 400px) {
+			.topnav a {
+				float: none;
+				width: 100%;
+			}
+		}
+	</style>
+
+	<title>CSS</title>
+</head>
+<body>
+<div class="header">
+	<h1>MEMBUAT LAYOUT DARI CSS</h1>
+	<p>Hallo.. ini adalah karya desain layoutku menggunakan CSS</p>
+</div>
+
+<div class="topnav">
+	<a href="#">Home</a>
+	<a href="#">Contact</a>
+	<a href="#">About Us</a>
+</div>
+
+<div class="row">
+	<div class="leftcolumn">
+		<h2> Cara Membuat Desain Website yang Efisien</h2>
+		<h5> Title Description, Nov 16, 2021</h5>
+		<p> Seperti yang sudah disebutkan sebelumnya, salah satu faktor paling penting di industri desain saat ini adalah mengatur workflow atau alur kerja agar Anda bisa bekerja dengan efisien. Untuk dapat melakukan pekerjaan yang efisien, Anda tentunya memerlukan waktu untuk menyusun pekerjaan Anda. Dengan membagi-bagi pekerjaan dalam beberapa tahapan, Anda tentunya bisa menjadi lebih produktif dalam pengerjaan dan penyelesaiannya.</p>
+		<p>Setiap orang dan desainer memang memiliki proses desain yang mereka rasa paling enak dan paling produktif. Di artikel kali ini, kami akan membahas workflow atau alur kerja desain yang efisien untuk membantu Anda para desainer. Apalagi bagi kalian yang men-desain dan mengembangkan website.</p>
+	</div>
+</div>
+
+<div class="footer"> <h2>2021 &copy; Muhammad Pippo Vitaerelly</h2>
+</div>
+</body>
+</html>
